@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>帧造 FRAMEFORGE · AI 视频制作 · 600 元/分钟起</title>
+<meta name="description" content="帧造 AI 视频工作室：企业宣传片、产品片、品牌短片。600 元/分钟起，5 个工作日交付，含 3 轮修改。">
+<style>
+  :root{
+    --bg:#0b0d10; --panel:#12161c; --line:#242b35;
+    --fg:#eef2f7; --muted:#98a2b3; --accent:#ff6a2b; --accent2:#ffb020;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+    font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  a{color:var(--accent2);text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  header{padding:28px 0 8px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:baseline;gap:12px}
+  .brand h1{font-size:24px;margin:0;letter-spacing:.14em}
+  .brand span{color:var(--muted);font-size:13px;letter-spacing:.22em}
+  .badge{border:1px solid var(--line);background:#151a21;color:var(--muted);
+    padding:8px 14px;border-radius:999px;font-size:13px}
+  .badge b{color:var(--accent2);font-size:15px}
+  .hero{padding:26px 0 10px}
+  .hero h2{font-size:clamp(26px,4.6vw,44px);line-height:1.25;margin:0 0 14px;letter-spacing:.02em}
+  .hero p{color:var(--muted);font-size:16px;line-height:1.8;margin:0 0 22px;max-width:760px}
+  .player{position:relative;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#000}
+  video{display:block;width:100%;height:auto}
+  .caption{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+    padding:12px 4px 0;color:var(--muted);font-size:13px}
+  .caption b{color:var(--fg)}
+  section{padding:44px 0;border-top:1px solid var(--line);margin-top:36px}
+  section h3{font-size:20px;margin:0 0 18px;letter-spacing:.06em}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px}
+  .card h4{margin:0 0 8px;font-size:16px}
+  .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.75}
+  .price{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end}
+  .price .big{font-size:52px;font-weight:700;color:var(--accent2);line-height:1}
+  .price .unit{color:var(--muted);font-size:16px;margin-bottom:6px}
+  .price .note{color:var(--muted);font-size:14px;line-height:1.8;max-width:520px}
+  table{width:100%;border-collapse:collapse;font-size:15px}
+  th,td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:500;font-size:13px;letter-spacing:.08em}
+  .contact{display:flex;gap:28px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+  .qr{background:#fff;padding:10px;border-radius:12px;width:220px;flex:0 0 auto}
+  .qr img{display:block;width:100%;height:auto;border-radius:6px}
+  .contact .txt{flex:1 1 320px;min-width:280px}
+  .contact .txt p{color:var(--muted);font-size:15px;line-height:1.9;margin:0 0 10px}
+  .link{display:inline-block;margin-top:6px;border:1px solid var(--accent);color:var(--accent);
+    padding:10px 16px;border-radius:10px;font-size:14px;word-break:break-all}
+  footer{padding:36px 0 56px;color:#6b7686;font-size:13px;line-height:1.9}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <h1>帧造</h1><span>FRAMEFORGE</span>
+    </div>
+    <div class="badge">起步价 <b>600 元/分钟</b> · 5 个工作日交付</div>
+  </header>
+
+  <div class="hero">
+    <h2>让每一帧，都成为品牌的门面。</h2>
+    <p>企业宣传片、产品片、品牌短片，AI 生成画面，4K 横版 / 9:16 竖版同源输出。
+       本条片子即按 <b style="color:#eef2f7">600 元/分钟</b> 的标准制作，可直接对照效果。</p>
+  </div>
+
+  <div class="player">
+    <video controls playsinline preload="metadata" poster="poster.jpg">
+      <source src="promo.mp4" type="video/mp4">
+      你的浏览器不支持 video 标签。
+    </video>
+  </div>
+  <div class="caption">
+    <span>演示片：<b>帧造出品</b> · 按 600 元/分钟标准制作</span>
+    <span>4K 拍摄级画幅 · AI 生成 · 含字幕与配乐</span>
+  </div>
+
+  <section>
+    <h3>价格</h3>
+    <div class="price">
+      <div>
+        <span class="big">600</span><span class="unit"> 元 / 分钟起（人民币）</span>
+      </div>
+      <div class="note">
+        不满 1 分钟按 1 分钟计：30 秒 600 元、60 秒 600 元、90 秒 900 元、120 秒 1200 元。<br>
+        含 3 轮修改；更高品质（真人级质感、复杂特效、多语种配音、4K 母版）
+        <b style="color:#eef2f7">需进一步详谈</b>。
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>我们做什么</h3>
+    <div class="grid">
+      <div class="card"><h4>企业宣传片</h4><p>品牌故事、发布会开场、企业形象片，30–180 秒，横版竖版同源。</p></div>
+      <div class="card"><h4>产品片 / TVC</h4><p>电商主图视频、产品卖点片、详情页短片，可批量出多 SKU 版本。</p></div>
+      <div class="card"><h4>品牌短片</h4><p>社媒投放、信息流素材、海外多语种版本，按平台比例裁剪。</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h3>交付标准</h3>
+    <table>
+      <tr><th>项目</th><th>标准</th></tr>
+      <tr><td>分辨率</td><td>4K 横版 16:9（1920×1080 / 3840×2160 可选）</td></tr>
+      <tr><td>画幅</td><td>16:9 主片 + 9:16 竖版裁剪（同源）</td></tr>
+      <tr><td>时长</td><td>30 / 60 / 90 / 120 / 180 秒</td></tr>
+      <tr><td>修改</td><td>含 3 轮修改，超出按 300–800 元/轮</td></tr>
+      <tr><td>周期</td><td>常规 5 个工作日，素材到位即开工</td></tr>
+      <tr><td>合规</td><td>AI 生成内容按平台要求标注；真人素材需肖像授权</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h3>合作流程</h3>
+    <div class="grid">
+      <div class="card"><h4>01 说清需求</h4><p>用途、时长、参考片、必须出现的信息，10 分钟聊完。</p></div>
+      <div class="card"><h4>02 分镜 + 报价</h4><p>给一版分镜与价格，确认后先出 15 秒样片。</p></div>
+      <div class="card"><h4>03 成片交付</h4><p>样片通过后出整片，3 轮修改内定稿，4K 交付。</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h3>联系我们</h3>
+    <div class="contact">
+      <div class="qr">
+        <img src="qr.png" alt="帧造AI视频客服 企业微信二维码">
+      </div>
+      <div class="txt">
+        <p><b style="color:#eef2f7">微信扫码，直接找「帧造AI视频客服」</b><br>
+           把需求发过来（用途 / 时长 / 参考片），当天给方案和报价。</p>
+        <p>也可以点这个链接直接发起咨询：</p>
+        <a class="link" href="https://work.weixin.qq.com/kfid/kfc5afb0e5a9aac0c89" target="_blank" rel="noopener">
+          work.weixin.qq.com/kfid/kfc5afb0e5a9aac0c89
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    帧造 FRAMEFORGE · AI 视频工作室<br>
+    本页演示片由 AI 生成，人物与场景均为虚构；报价以正式合同为准。
+  </footer>
+
+</div>
+</body>
+</html>
